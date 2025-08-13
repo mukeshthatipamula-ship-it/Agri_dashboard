@@ -81,3 +81,7 @@ Edit
  ┣ 🖼 Screenshot (54).png       # Dashboard preview image
  ┗ 📁 data_source.csv           # Raw data file (if available)
 
+
+Source: Karnatka-Agriculture-data — District-wise crop yield, area, rainfall, price, and irrigation data for Karnataka.
+Provider: Dataset uploaded by Argha C on Kaggle for agricultural analysis and visualization
+
