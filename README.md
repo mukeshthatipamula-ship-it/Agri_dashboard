@@ -1,94 +1,83 @@
-#Agri_dashboard
+🌾 Agri_dashboard Analytics Dashboard
+📊 Power BI Interactive Report — Agricultural Insights for Karnataka State
+This repository contains a Power BI dashboard that analyzes Karnataka’s agricultural performance, focusing on crop yields, cultivation area, market prices, rainfall, and irrigation methods.
+The dashboard enables data-driven agricultural planning by visualizing patterns across seasons, crop types, and locations.
 
-Dashboard Overview:
-The dashboard presents data for:
+📌 1. Dashboard Highlights
+Metric	Value	Description
+💰 Total Price Value	16M	Combined market value of all yields
+🌾 Yield Count	186	Total number of recorded yield entries
+📐 Max Area	52K	Largest cultivation area recorded
 
-Crop Seasons: Kharif, Rabi, Zaid (currently filtered for Kharif)
+Filters Available
 
-Irrigation Types: Basin, Drip, Spray (currently filtered for Basin)
+Crop Seasons: Kharif | Rabi | Zaid
 
-Geographical Distribution: Multiple Karnataka districts
+Irrigation Types: Basin | Drip | Spray
 
-Crops: Ginger, Coconut, Arecanut, Pepper, Tea, etc.
+📌 2. Key Visuals & Insights
+A. Geographical Yield Distribution (Map View)
+Largest yields concentrated in Mysuru, Hassan, and Madikeri.
 
-2. Key Performance Indicators (KPIs)
-Sum of Price: 16M – Total market price value of yields.
+Northern Karnataka districts such as Raichur have lower yields.
 
-Count of Yields: 186 – Total recorded yield instances.
+B. Cultivation Area by Location
+Top 3 cultivated areas:
 
-Max of Area: 52K – Largest cultivation area recorded.
+Mysuru – Highest cultivation footprint
 
-3. Insights from Visuals
-A. Sum of Yields by Location (Map View)
-The bubble map highlights yield volumes by district.
+Hassan
 
-Larger circles indicate higher yields.
+Madikeri
 
-Top locations: Mysuru, Hassan, and Madikeri.
+Minimal cultivation in Raichur and Gulbarga.
 
-B. Sum of Area by Location
-Mysuru has the largest cultivated area, followed by Hassan and Madikeri.
+C. Revenue Contribution by Crop (Treemap)
+Ginger → Highest revenue contributor
 
-Smaller areas in Raichur and Gulbarga.
+Coconut & Arecanut → Major contributors
 
-C. Sum of Price by Crops (Tree Map)
-Top revenue crops:
+Other crops: Tea, Pepper (smaller share)
 
-Ginger – Leading in price contribution.
+D. Top Yield Locations (Horizontal Bar Chart)
+Rank	Location	Yield Value (M)
+1️⃣	Mysuru	1.53M
+2️⃣	Hassan	1.21M
+3️⃣	Madikeri	0.30M
+4️⃣	Gulbarga	0.30M
+5️⃣	Kodagu	0.17M
+6️⃣	Raichur	0.02M
 
-Coconut – Second-highest contributor.
+E. Price & Rainfall Trends by Location (Line Charts)
+Hassan leads in both market price and rainfall.
 
-Arecanut – Significant share.
+Declining trend in both metrics from Hassan → Raichur.
 
-Smaller revenue shares from Tea, Pepper, and other crops.
+📌 3. Data-Driven Observations
+Yield & Price Link — Districts with larger cultivation areas and rainfall (e.g., Hassan, Mysuru) have higher yield values.
 
-D. Top Yield Locations in Karnataka
-Mysuru leads with 1.53M yield value.
+Crop Dependency — A few crops dominate revenue, which poses a risk to stability.
 
-Hassan follows with 1.21M.
+Rainfall Gap — Low-rainfall regions like Raichur need irrigation infrastructure improvements.
 
-Madikeri and Gulbarga are in the mid-range (~0.3M each).
+Regional Disparity — Northern districts underperform compared to the south.
 
-Kodagu and Raichur show minimal yields.
+📌 4. Recommendations
+✅ Expand drip & spray irrigation in low-rainfall districts.
+✅ Promote crop diversification beyond Ginger & Coconut.
+✅ Implement season-specific crop rotation plans to optimize yields in Rabi and Zaid.
+✅ Support farmers in low-yield zones with subsidized inputs and market linkages.
 
-E. Sum of Price by Location (Line Area Chart)
-Hassan tops in pricing, followed by Mysuru.
-
-Declining trend from Madikeri → Gulbarga → Kodagu → Raichur.
-
-F. Sum of Rainfall by Location
-Hassan records the highest rainfall among shown locations.
-
-Rainfall declines across Madikeri, Mysuru, Gulbarga, Kodagu, and Raichur.
-
-4. Observations & Analysis
-Yield & Pricing: There’s a strong correlation between cultivated area and yield value, with Mysuru and Hassan being prime contributors.
-
-Crop Diversity: Revenue is concentrated among a few crops (Ginger, Coconut, Arecanut).
-
-Rainfall Impact: Locations with higher rainfall tend to have better yield and price performance.
-
-Geographical Disparity: Northern Karnataka districts like Raichur have significantly lower yields and rainfall.
-
-5. Possible Actions / Recommendations
-Invest in irrigation infrastructure in low-rainfall areas (e.g., Raichur, Kodagu) to boost yield.
-
-Diversify crop cultivation to reduce dependency on a few high-value crops.
-
-Implement seasonal strategies tailored for Kharif, Rabi, and Zaid periods.
-
-6. Dashboard Snapshot
+📌 5. Dashboard Preview
 
 
-Repository Structure Example:
-
+📂 Repository Structure
 bash
 Copy
 Edit
-📂 Karnataka_Agri_Dashboard
- ├── README.md              # Dashboard description & analysis
- ├── agri_dashboard.pbit    # Power BI template
- ├── Screenshot (54).png    # Dashboard image
- └── data_source.csv        # Raw data (if shareable)
-This dashboard offers policymakers, farmers, and researchers a clear visual representation of agricultural performance in Karnataka, enabling data-driven decisions for improved productivity and sustainability.
+📦 Karnataka_Agri_Dashboard
+ ┣ 📜 README.md                # Dashboard documentation & insights
+ ┣ 📊 agri_dashboard.pbit       # Power BI dashboard template
+ ┣ 🖼 Screenshot (54).png       # Dashboard preview image
+ ┗ 📁 data_source.csv           # Raw data file (if available)
 
