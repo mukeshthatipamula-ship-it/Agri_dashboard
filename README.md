@@ -68,13 +68,14 @@ Regional Disparity — Northern districts underperform compared to the south.
 ✅ Implement season-specific crop rotation plans to optimize yields in Rabi and Zaid.
 ✅ Support farmers in low-yield zones with subsidized inputs and market linkages.
 
+
+Repository Structure :
+dashboard file : (https://github.com/mukeshthatipamula-ship-it/Sales_dashbaoard/blob/main/Sales_dashboard.pbit)
+
+images : (https://github.com/mukeshthatipamula-ship-it/Sales_dashbaoard/blob/main/Screenshot%20(58).png)
+
+
 📌 5. Dashboard Preview
-
-
-📂 Repository Structure
-bash
-Copy
-Edit
 📦 Karnataka_Agri_Dashboard
  ┣ 📜 README.md                # Dashboard documentation & insights
  ┣ 📊 agri_dashboard.pbit       # Power BI dashboard template
