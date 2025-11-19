@@ -70,7 +70,7 @@ Regional Disparity — Northern districts underperform compared to the south.
 
 
 Repository Structure :
-dashboard file : (https://github.com/mukeshthatipamula-ship-it/Sales_dashbaoard/blob/main/Sales_dashboard.pbit)
+dashboard file : (https://github.com/mukeshthatipamula-ship-it/Agri_dashboard/blob/main/agri%20dashboard.pbit)
 
 images : (https://github.com/mukeshthatipamula-ship-it/Sales_dashbaoard/blob/main/Screenshot%20(58).png)
 
